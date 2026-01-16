@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+    font-family: Arial, sans-serif;
+   background-image:  url('images/cafe2.jpg'); 
+    
+    background-size: cover;      
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+      background: rgba(0, 0, 0, 0.6);
+
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.hero {
+    background: rgb(235, 155, 5,0.6);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    margin: 10px 0 20px;
+}
+
+.btn {
+    background: white;
+    color: orange;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.box {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.title {
+    background: white;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 28px;
+}
+
+.menu {
+  display: flex;  
+    justify-content: center;   
+    flex-wrap: nowrap;         
+    gap: 20px;                
+    padding: 20px;
+
+}
+
+.card {
+    background: white;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.about {
+    background: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.form {
+    width: 300px;
+    margin: auto;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.form button {
+    width: 100%;
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+footer {
+    margin-top: auto;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
